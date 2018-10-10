@@ -1,14 +1,49 @@
 <html>
-<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.avatar {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 200px;
+	    height: 150px;
+	    border-radius: 10%;
+	}
+	h1 {text-align:center;}
+	h2 {text-align:center;}
+	h3 {text-align:center;color: #32CD32;}
+	h4 {text-align:center;color: #32CD32;}
+	p {text-align:center;}
 
-<h1>Nome: Bruno Arcoverde Diniz</h1>
-<h1>Matr&iacute;cula: 0050011654</h1>
- 
-<h2><a href="https://brunoarcoverdediniz.github.io/grupo01/grupo01.html" target="blank">Grupo</a></h2>
- <br>
- <img src="brasilflag.png"  style="width:400x;height:250px;"> 
-<br>
-<h2><a href="https://www.youtube.com/watch?v=UMhskLXJuq4" target="blank">GitHub Turorial</a></h2> 
-
-</body>
+	input.MyButton {
+	float:center;
+	margin-left: center;
+	margin-right: center;
+	width: 130px;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 80%;
+	background: #3366cc;
+	color: #fff;
+	border: 1px solid #3366cc;
+	border-radius: 10px;
+	}
+	input.MyButton:hover {
+	color: #ffff00;
+	background: #000;
+	border: 1px solid #fff;
+	}
+	</style>
+	<body style="background-color:black;">
+		<br><br><br><br>
+		<h3>Nome: Bruno Arcoverde Diniz</h3>
+		<h3>Matr&iacute;cula: 0050011654</h3>
+		<img src="brasilflag.png" alt="Avatar" class="avatar"> 
+		<br>
+		<form>
+		<input class="MyButton" type="button" value="Grupo" onclick="window.location.href='https://brunoarcoverdediniz.github.io/grupo01/grupo01.html'" />
+		<input class="MyButton" type="button" value="Tutorial" onclick="window.location.href='https://www.youtube.com/watch?v=UMhskLXJuq4'" />
+		</form> 
+	</body>
 </html>
